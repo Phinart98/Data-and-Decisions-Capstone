@@ -1,8 +1,8 @@
 # Code for the Analysis of the Environmental Effects on COVID-19 Transmission in Africa
 
 ## Overview
-This repository contains the code and documentation for the 2024 Applied Data Institute capstone project for the Data and Decisions course. The project focuses on decoding datasets, cleaning, merging and using them for the analysis.
-You can find the paper and read it here: [capstone paper](https://drive.google.com/file/d/16P-Ww0XTaSKSDjXLOvQra8oluRRHPKz6/view?usp=sharing)
+This repository contains the code and documentation for my 2024 Applied Data Institute capstone project in the Data and Decisions course. The project focuses on decoding datasets, cleaning, merging and using them for the analysis.
+You can find the paper and read it here: [capstone paper](https://drive.google.com/file/d/1h8Cr2Tk65ZsnM_dgIwLgckvx6SvX0pp4/view?usp=sharing)
 
 ## Project Structure
 - `Datasets/`: Main Datasets used for the application.
@@ -16,7 +16,7 @@ You can find the paper and read it here: [capstone paper](https://drive.google.c
 
 1. Clone the repository:
 ```bash
-git clone 
+git clone https://github.com/Phinart98/Data-and-Decisions-Capstone.git
 ```
 
 2. Create and activate virtual environment:
@@ -32,7 +32,15 @@ pip install -r requirements.txt
 
 4. Run the scripts:
 
-If you want reproduce the environmental data extraction and preprocessing, the download the grib dataset from the following link: [https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels-monthly-means?tab=overview](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels-monthly-means?tab=overview)
+If you only want to reproduce the analysis and figures,
+Run the last two files as repeated below:
+
+```bash
+python generate_paper_statistics.py
+python generate_paper_figures.py
+```
+
+If you want reproduce the environmental data extraction and preprocessing, then download the grib dataset from the following link: [Copernicus Enviromental Dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels-monthly-means?tab=overview)
 
 Create a folder called 'environmental-data' in the root folder and place the grib file in it.
 
@@ -41,14 +49,6 @@ Run the following files in the order listed
 ```bash
 python extract_environmental_data.py
 python preprocess.py
-python generate_paper_statistics.py
-python generate_paper_figures.py
-```
-
-If you only want to reproduce the analysis and figures,
-Run the last two files as repeated below:
-
-```bash
 python generate_paper_statistics.py
 python generate_paper_figures.py
 ```
