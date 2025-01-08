@@ -2,6 +2,7 @@
 
 ## Overview
 This repository contains the code and documentation for the 2024 Applied Data Institute capstone project for the Data and Decisions course. The project focuses on decoding datasets, cleaning, merging and using them for the analysis.
+You can find the paper and read it here: [capstone paper](https://drive.google.com/file/d/16P-Ww0XTaSKSDjXLOvQra8oluRRHPKz6/view?usp=sharing)
 
 ## Project Structure
 - `Datasets/`: Main Datasets used for the application.
