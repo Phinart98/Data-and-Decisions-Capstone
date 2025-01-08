@@ -1,0 +1,10 @@
+pygrib
+pandas
+numpy
+tqdm
+geopandas
+shapely
+statsmodels
+matplotlib
+seaborn
+scipy

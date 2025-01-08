@@ -1,0 +1,41 @@
+{
+  "chart": {
+    "title": "Share of the population living in urbanized areas",
+    "subtitle": "",
+    "citation": "HYDE (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/long-term-urban-population-region?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Eastern Africa",
+      "Western Europe",
+      "Korea",
+      "United States",
+      "World",
+      "Canada",
+      "Mexico",
+      "Japan",
+      "Brazil",
+      "Central Europe",
+      "China",
+      "India"
+    ]
+  },
+  "columns": {
+    "Population share in urban areas": {
+      "titleShort": "Population share in urban areas",
+      "titleLong": "Population share in urban areas",
+      "descriptionShort": "Share of population living in urban areas in a country over time.",
+      "descriptionKey": [],
+      "unit": "%",
+      "timespan": "-10000-2023",
+      "type": "Numeric",
+      "owidVariableId": 819341,
+      "shortName": "urbc_c_share",
+      "lastUpdated": "2024-01-02",
+      "nextUpdate": "2029-06-24",
+      "citationShort": "HYDE (2023) – with minor processing by Our World in Data",
+      "citationLong": "HYDE (2023) – with minor processing by Our World in Data. “Population share in urban areas” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/819341.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-12-02"
+}
